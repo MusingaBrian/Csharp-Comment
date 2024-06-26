@@ -2,6 +2,14 @@
 // initialize variables - graded assignments 
 int currentAssignments = 5;
 
+//Student names
+string[] studentNames = new string[] { "sophia", "Andrew", "Emma", "Logan" };
+
+foreach (string name in studentNames)
+{
+    Console.WriteLine(name);
+}
+
 int[] sophiaScores = new int[] { 90, 86, 87, 98, 100 };
 int[] andrewScores = new int[] { 92, 89, 81, 96, 90 };
 int[] emmaScores = new int[] { 90, 85, 87, 98, 68 };
